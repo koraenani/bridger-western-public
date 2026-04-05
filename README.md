@@ -66,7 +66,6 @@ Multiple screenshots per letter help because the prompt can shift slightly, anti
 
 ## Basic Troubleshooting
 
-- If the bite never triggers, re-record the bite sample and lower `min_bite_delay_after_cast` only if the game really bites that early.
-- If the macro catches too early on random sounds, raise `similarity_threshold`, `detection_threshold`, or `energy_threshold`.
+- If the macro catches too early or too late, adjust `Trigger Faction` in automation panel.
 - If the QTE misses keys, tighten the QTE box and recapture clean `Blank`, `T`, `R`, `F`, and `G` templates.
 - If clicks or hotkeys do not work, try running the app as administrator.
